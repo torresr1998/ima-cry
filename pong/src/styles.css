@@ -10,10 +10,10 @@ body {
 }
 
 #game {
+  background-image: url("https://media.tenor.com/4tCTmkEH5oEAAAAC/twilight-trailer.gif");
   margin: 10px;
   border: 5px solid black;
   left: 0;
-  background-image: url("https://media.tenor.com/4tCTmkEH5oEAAAAC/twilight-trailer.gif");
   position: absolute;
 }
 
