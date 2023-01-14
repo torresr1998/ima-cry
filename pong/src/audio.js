@@ -52,12 +52,12 @@ soundArray.push(paddleSound);
 export var scoreSound = new soundFile("478281__joao-janz__finger-tap-2-3.wav");
 soundArray.push(scoreSound);
 
-export var ambientSound = new soundFile("132546__theworkingbamboo__etude.mp3");
+export var ambientSound = new soundFile("645971__garuda1982__night-at-the-forest-lake-nature-atmo.mp3");
 soundArray.push(ambientSound);
 ambientSound.player.loop = true; //turn on looping
 ambientSound.player.volume.value = -20; //turn down volume
 
-export var adventureMusic = new soundFile("132546__theworkingbamboo__etude.mp3");
+export var adventureMusic = new soundFile("413732__soundflakes__sad-drama-romantic-stinger.mp3");
 soundArray.push(adventureMusic);
 adventureMusic.player.loop = true;
 adventureMusic.player.volume.value = -16;
