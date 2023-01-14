@@ -14,6 +14,7 @@ body {
   border: 5px solid black;
   left: 0;
   background-image: url("https://media4.giphy.com/media/F6ZGtDS1o9KG4/giphy.gif?cid=790b7611651d065b3091be8a4b3a72aef534c9457ca99b91&rid=giphy.gif&ct=g");
+  background-size: cover;
   position: absolute;
 }
 
@@ -90,10 +91,10 @@ body {
 
 #left-score {
   left: 10%;
-  background-image: white;
+  color: white;
 }
 
 #right-score {
   right: 10%;
-  background-image: white;
+  color: white;
 }
