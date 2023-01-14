@@ -13,12 +13,7 @@ body {
   margin: 10px;
   border: 5px solid black;
   left: 0;
-  background-image: <iframe src="https://giphy.com/embed/l41Yy7peNVGqSa5O0" 
-  width="480" 
-  height="480" 
-  frameBorder="0" 
-  class="giphy-embed" 
-  allowFullScreen></iframe><p><a href="https://giphy.com/gifs/lionsgatehomeent-love-twilight-action-l41Yy7peNVGqSa5O0">via GIPHY</a></p>;
+  background-image: url("giphy (1).gif")
   position: absolute;
 }
 
