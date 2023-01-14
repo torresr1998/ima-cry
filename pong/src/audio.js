@@ -43,10 +43,10 @@ export var soundArray = []; //list of sounds loaded
 
 //Here is where all the Sound File Players Start
 
-export var wallSound = new soundFile("tap-resonant.mp3"); //load sound
+export var wallSound = new soundFile("338284__werra__piano-lid-tap-open.wav"); //load sound
 soundArray.push(wallSound); //add sound to list of sounds
 
-export var paddleSound = new soundFile("tap-percussive.mp3");
+export var paddleSound = new soundFile("478281__joao-janz__finger-tap-2-3.wav");
 soundArray.push(paddleSound);
 
 export var scoreSound = new soundFile("phaserDown2.mp3");
