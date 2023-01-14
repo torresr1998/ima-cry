@@ -48,17 +48,8 @@ soundArray.push(paddleSound);
 export var scoreSound = new soundFile("478281__joao-janz__finger-tap-2-3.wav");
 soundArray.push(scoreSound);
 
-export var ambientSound = new soundFile("Adventure_Meme.mp3");
+export var ambientSound = new soundFile("132546__theworkingbamboo__etude.mp3");
 soundArray.push(ambientSound);
 ambientSound.player.loop = true; //turn on looping
 ambientSound.player.volume.value = -0; //turn down volume
 
-export var adventureMusic = new soundFile("Adventure_Meme.mp3");
-soundArray.push(adventureMusic);
-adventureMusic.player.loop = true;
-adventureMusic.player.volume.value = -0;
-
-export var villageMusic = new soundFile("Adventure_Meme.mp3");
-soundArray.push(villageMusic);
-villageMusic.player.loop = true;
-villageMusic.player.volume.value = -0;
