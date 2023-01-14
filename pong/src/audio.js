@@ -39,10 +39,6 @@ export function playDeferredSounds() {
   }
 }
 
-export var soundArray = []; //list of sounds loaded
-
-//Here is where all the Sound File Players Start
-
 export var wallSound = new soundFile("478281__joao-janz__finger-tap-2-3.wav"); //load sound
 soundArray.push(wallSound); //add sound to list of sounds
 
@@ -55,14 +51,14 @@ soundArray.push(scoreSound);
 export var ambientSound = new soundFile("132546__theworkingbamboo__etude.mp3");
 soundArray.push(ambientSound);
 ambientSound.player.loop = true; //turn on looping
-ambientSound.player.volume.value = -5; //turn down volume
+ambientSound.player.volume.value = -20; //turn down volume
 
 export var adventureMusic = new soundFile("132546__theworkingbamboo__etude.mp3");
 soundArray.push(adventureMusic);
 adventureMusic.player.loop = true;
-adventureMusic.player.volume.value = -5;
+adventureMusic.player.volume.value = -0;
 
 export var villageMusic = new soundFile("132546__theworkingbamboo__etude.mp3");
 soundArray.push(villageMusic);
 villageMusic.player.loop = true;
-villageMusic.player.volume.value = -5;
+villageMusic.player.volume.value = -0;
