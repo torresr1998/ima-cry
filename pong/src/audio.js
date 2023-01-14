@@ -53,3 +53,12 @@ soundArray.push(ambientSound);
 ambientSound.player.loop = true; //turn on looping
 ambientSound.player.volume.value = -0; //turn down volume
 
+export var adventureMusic = new soundFile("132546__theworkingbamboo__etude.mp3");
+soundArray.push(adventureMusic);
+adventureMusic.player.loop = true;
+adventureMusic.player.volume.value = -0;
+
+export var villageMusic = new soundFile("132546__theworkingbamboo__etude.mp3");
+soundArray.push(villageMusic);
+villageMusic.player.loop = true;
+villageMusic.player.volume.value = -0;
