@@ -13,22 +13,23 @@ body {
   margin: 10px;
   border: 5px solid black;
   left: 0;
+  background-image: url("https://media2.giphy.com/media/rzeWnbH8Uc5Y4/giphy.gif?cid=ecf05e47kkcvibs15tegczudxeym9xqeqtzzczigxtgscewk&rid=giphy.gif&ct=g");
   position: absolute;
 }
 
 #left-paddle {
-  background-color: green;
+  background-color: brown;
   left: 10px;
   height: 25px;
 }
 
 #right-paddle {
-  background-color: blue;
+  background-color: grey;
   right: 10px;
 }
 
 #instructions {
-  display: block;
+  display: none;
   bottom: 0;
   position: absolute;
   margin: 10px;
@@ -36,7 +37,7 @@ body {
 }
 
 #errors-debug {
-  display: block;
+  display: none;
   bottom: 0;
   position: absolute;
   margin: 10px;
